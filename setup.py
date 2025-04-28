@@ -270,8 +270,8 @@ setup(
         "packaging",
         "ninja",
         "einops",
-        "triton",
+        "triton-windows",
         "transformers",
-        "causal_conv1d>=1.1.0",
+        "causal_conv1d @ git+https://github.com/d8ahazard/causal-conv1d.git@main",
     ],
 )
